@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Specificity</title>
+		<style type="text/css">
+			body {
+                color:  red;
+            }
+            ul {
+                color: chocolate;
+            }
+
+            li {
+                color: greenyellow
+            }
+
+            .highlight {
+                color: blue;
+            }
+
+            #special {
+                color: lightgray;
+            }
+		</style>
+	</head>
+
+	<body>
+        <p>HELLO!</p>
+		<ul>
+			<li id="special" class="highlight"> some uffst </li>
+			<li class="highlight"> another uffst </li>
+			<li> next stuff </li>
+			<li> more stuff </li>
+		</ul>
+	</body>
+</html>
+

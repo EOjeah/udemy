@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    border-color: azure;
+    border-width: 5px;
+    border-style: dashed;
+
+    border: 5px dashed azure;
+}
+
+li {
+    color: rgb(11, 31, 11)
+}
+
+h4 {
+    background: coral
+}
+
+body {
+    background: pink;
+    background-repeat: no-repeat;
+    background-size: cover
+}
